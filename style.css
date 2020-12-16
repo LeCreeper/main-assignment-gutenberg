@@ -1,0 +1,10 @@
+/* 
+    Theme Name: Drotved Astra Child Theme
+    Description: Child Theme for Astra Theme
+    Author: Drotved
+    Template: astra
+*/
+
+/* Imports the contents of the editor.css file, 
+and thereby ensures that frontend and editor-view ALWAYS is the same */
+@import "editor.css";

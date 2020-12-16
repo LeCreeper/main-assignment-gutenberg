@@ -1,0 +1,60 @@
+
+.ast-container {
+    padding-left: unset !important;
+    padding-right: unset !important;
+    max-width: 100% !important;
+}
+
+.ast-plain-container {
+    .block-editor-block-list__layout {
+        padding-right: unset !important;
+        padding-left: unset !important;
+    }   
+    
+}
+
+.wp-block-cover {
+    .wp-block-group__inner-container {
+        width: 50% !important;
+        margin-left: 2% !important;
+    }
+
+//Ensures that the text doesn't overlap the snowman
+.wp-block-cover__inner-container {
+
+    width: 100% !important;
+
+        p {
+            width: 48% !important;
+            float: left;
+            margin-left: 15px !important;
+
+        }
+
+    }   
+}
+
+//Makes things responsive
+//Mixins
+@include screenMax(989px) {
+
+    .wp-block-cover {
+        padding: unset !important;
+        min-height: 500px !important;
+    }
+
+    .wp-block-cover__inner-container {
+        margin-top: 5% !important;
+    }
+}
+
+@include screenMax(667px) {
+
+
+    .wp-block-cover {
+
+        min-height: 400px !important;
+    
+    }
+
+}

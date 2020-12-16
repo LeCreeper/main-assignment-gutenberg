@@ -1,0 +1,11 @@
+
+//Ensures the produkt-description area is centered
+//and properly sized
+.wp-block-group__inner-container {
+    width: 50%;
+    margin: auto;
+
+    h2 {
+        line-height: 50px;
+    }
+}
