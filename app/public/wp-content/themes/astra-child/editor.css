@@ -1,0 +1,100 @@
+h1 {
+  font-size: 2.5vw; }
+
+h2 {
+  font-size: 2vw; }
+
+h3 {
+  font-size: 1.5vw; }
+
+p {
+  font-size: 1vw; }
+
+@media screen and (max-width: 1280px) {
+  p {
+    font-size: 1.5vw !important; } }
+@media screen and (max-width: 989px) {
+  h1 {
+    font-size: 3.5vw !important; }
+
+  h2 {
+    font-size: 2.5vw !important; } }
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 4vw !important; }
+
+  h2 {
+    font-size: 3vw !important; }
+
+  p {
+    font-size: 2vw !important; } }
+@media screen and (max-width: 676px) {
+  h1 {
+    font-size: 5vw !important; }
+
+  h2 {
+    font-size: 4vw !important;
+    line-height: 50px !important; }
+
+  p {
+    font-size: 2.7vw !important; } }
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 6vw !important; }
+
+  h2 {
+    font-size: 5vw !important; }
+
+  p {
+    font-size: 3.5vw !important; } }
+.ast-container {
+  padding-left: unset !important;
+  padding-right: unset !important;
+  max-width: 100% !important; }
+
+.ast-plain-container .block-editor-block-list__layout {
+  padding-right: unset !important;
+  padding-left: unset !important; }
+
+.wp-block-cover .wp-block-group__inner-container {
+  width: 50% !important;
+  margin-left: 2% !important; }
+.wp-block-cover .wp-block-cover__inner-container {
+  width: 100% !important; }
+  .wp-block-cover .wp-block-cover__inner-container p {
+    width: 48% !important;
+    float: left;
+    margin-left: 15px !important; }
+
+@media screen and (max-width: 989px) {
+  .wp-block-cover {
+    padding: unset !important;
+    min-height: 500px !important; }
+
+  .wp-block-cover__inner-container {
+    margin-top: 5% !important; } }
+@media screen and (max-width: 667px) {
+  .wp-block-cover {
+    min-height: 400px !important; } }
+.wp-block-group__inner-container {
+  width: 50%;
+  margin: auto; }
+  .wp-block-group__inner-container h2 {
+    line-height: 50px; }
+
+.grid {
+  display: grid; }
+
+.grid-2 {
+  grid-template-columns: 1fr 1fr 1fr; }
+
+.grid-3 {
+  grid-template-columns: 1fr 1fr 1fr; }
+
+.grid-4 {
+  grid-template-columns: 1fr 1fr 1fr; }
+
+.test {
+  background-color: lightgray; }
+
+/*# sourceMappingURL=editor.css.map */

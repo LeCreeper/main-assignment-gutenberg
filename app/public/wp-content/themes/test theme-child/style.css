@@ -1,0 +1,36 @@
+/* 
+    Theme Name: Drotved Gutenberg Project Child Theme
+    Description: Child Theme for Gutenberg Project
+    Author: Drotved
+    Template: test theme
+*/
+
+.grid {
+    display: grid;
+    
+
+}
+
+.grid-2 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.grid-3 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.grid-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.test {
+    background-color: tomato;
+}
+
+.banana {
+    color: violet !important;
+}
+
