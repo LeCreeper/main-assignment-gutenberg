@@ -3820,3 +3820,608 @@ Stack trace:
 [11-Dec-2020 10:12:12 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text.php on line 9
 [11-Dec-2020 12:13:37 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 36
 [11-Dec-2020 13:50:59 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 44
+[16-Dec-2020 11:45:02 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\wp-db.php on line 1635
+[16-Dec-2020 11:45:02 UTC] PHP Stack trace:
+[16-Dec-2020 11:45:02 UTC] PHP   1. {main}() C:\Users\rdlau\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[16-Dec-2020 11:45:02 UTC] PHP   2. include() C:\Users\rdlau\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[16-Dec-2020 11:45:02 UTC] PHP   3. include() phar://C:/Users/rdlau/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[16-Dec-2020 11:45:02 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/rdlau/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[16-Dec-2020 11:45:02 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/rdlau/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[16-Dec-2020 11:45:02 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/rdlau/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[16-Dec-2020 11:45:02 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/rdlau/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[16-Dec-2020 11:45:02 UTC] PHP   8. require() phar://C:/Users/rdlau/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[16-Dec-2020 11:45:02 UTC] PHP   9. require_wp_db() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-settings.php:124
+[16-Dec-2020 11:45:02 UTC] PHP  10. wpdb->__construct() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\load.php:482
+[16-Dec-2020 11:45:02 UTC] PHP  11. wpdb->db_connect() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\wp-db.php:632
+[16-Dec-2020 11:45:02 UTC] PHP  12. mysqli_real_connect() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\wp-db.php:1635
+[16-Dec-2020 12:05:03 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:05:03 UTC] PHP Stack trace:
+[16-Dec-2020 12:05:03 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\index.php:0
+[16-Dec-2020 12:05:03 UTC] PHP   2. require() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\index.php:17
+[16-Dec-2020 12:05:03 UTC] PHP   3. wp() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-blog-header.php:16
+[16-Dec-2020 12:05:03 UTC] PHP   4. WP->main() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\functions.php:1285
+[16-Dec-2020 12:05:03 UTC] PHP   5. WP->parse_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp.php:745
+[16-Dec-2020 12:05:03 UTC] PHP   6. do_action_ref_array() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp.php:388
+[16-Dec-2020 12:05:03 UTC] PHP   7. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:544
+[16-Dec-2020 12:05:03 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:05:03 UTC] PHP   9. rest_api_loaded() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:03 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:339
+[16-Dec-2020 12:05:03 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:376
+[16-Dec-2020 12:05:03 UTC] PHP  12. WP_REST_Posts_Controller->get_items() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:1050
+[16-Dec-2020 12:05:03 UTC] PHP  13. WP_REST_Posts_Controller->prepare_item_for_response() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:328
+[16-Dec-2020 12:05:03 UTC] PHP  14. apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:1683
+[16-Dec-2020 12:05:03 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:206
+[16-Dec-2020 12:05:03 UTC] PHP  16. do_blocks() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:03 UTC] PHP  17. render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:758
+[16-Dec-2020 12:05:03 UTC] PHP  18. WP_Block->render() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:720
+[16-Dec-2020 12:05:03 UTC] PHP  19. acf_render_block_callback() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-block.php:217
+[16-Dec-2020 12:05:03 UTC] PHP  20. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:307
+[16-Dec-2020 12:05:03 UTC] PHP  21. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:05:03 UTC] PHP  22. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:05:06 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:05:06 UTC] PHP Stack trace:
+[16-Dec-2020 12:05:06 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\post.php:0
+[16-Dec-2020 12:05:06 UTC] PHP   2. require() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\post.php:187
+[16-Dec-2020 12:05:06 UTC] PHP   3. array_reduce() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\edit-form-blocks.php:77
+[16-Dec-2020 12:05:06 UTC] PHP   4. rest_preload_api_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\edit-form-blocks.php:77
+[16-Dec-2020 12:05:06 UTC] PHP   5. rest_do_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:1984
+[16-Dec-2020 12:05:06 UTC] PHP   6. WP_REST_Server->dispatch() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:464
+[16-Dec-2020 12:05:06 UTC] PHP   7. WP_REST_Posts_Controller->get_item() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:1050
+[16-Dec-2020 12:05:06 UTC] PHP   8. WP_REST_Posts_Controller->prepare_item_for_response() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:505
+[16-Dec-2020 12:05:06 UTC] PHP   9. apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:1683
+[16-Dec-2020 12:05:06 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:206
+[16-Dec-2020 12:05:06 UTC] PHP  11. do_blocks() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:06 UTC] PHP  12. render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:758
+[16-Dec-2020 12:05:06 UTC] PHP  13. WP_Block->render() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:720
+[16-Dec-2020 12:05:06 UTC] PHP  14. acf_render_block_callback() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-block.php:217
+[16-Dec-2020 12:05:06 UTC] PHP  15. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:307
+[16-Dec-2020 12:05:06 UTC] PHP  16. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:05:06 UTC] PHP  17. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:05:06 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:05:06 UTC] PHP Stack trace:
+[16-Dec-2020 12:05:06 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\post.php:0
+[16-Dec-2020 12:05:06 UTC] PHP   2. require() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\post.php:187
+[16-Dec-2020 12:05:06 UTC] PHP   3. array_reduce() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\edit-form-blocks.php:77
+[16-Dec-2020 12:05:06 UTC] PHP   4. rest_preload_api_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\edit-form-blocks.php:77
+[16-Dec-2020 12:05:06 UTC] PHP   5. rest_do_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:1984
+[16-Dec-2020 12:05:06 UTC] PHP   6. WP_REST_Server->dispatch() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:464
+[16-Dec-2020 12:05:06 UTC] PHP   7. WP_REST_Autosaves_Controller->get_items() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:1050
+[16-Dec-2020 12:05:06 UTC] PHP   8. WP_REST_Autosaves_Controller->prepare_item_for_response() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php:300
+[16-Dec-2020 12:05:06 UTC] PHP   9. WP_REST_Revisions_Controller->prepare_item_for_response() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php:406
+[16-Dec-2020 12:05:06 UTC] PHP  10. apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-revisions-controller.php:603
+[16-Dec-2020 12:05:06 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:206
+[16-Dec-2020 12:05:06 UTC] PHP  12. do_blocks() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:06 UTC] PHP  13. render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:758
+[16-Dec-2020 12:05:06 UTC] PHP  14. WP_Block->render() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:720
+[16-Dec-2020 12:05:06 UTC] PHP  15. acf_render_block_callback() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-block.php:217
+[16-Dec-2020 12:05:06 UTC] PHP  16. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:307
+[16-Dec-2020 12:05:06 UTC] PHP  17. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:05:06 UTC] PHP  18. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:05:08 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:05:08 UTC] PHP Stack trace:
+[16-Dec-2020 12:05:08 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\index.php:0
+[16-Dec-2020 12:05:08 UTC] PHP   2. require() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\index.php:17
+[16-Dec-2020 12:05:08 UTC] PHP   3. wp() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-blog-header.php:16
+[16-Dec-2020 12:05:08 UTC] PHP   4. WP->main() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\functions.php:1285
+[16-Dec-2020 12:05:08 UTC] PHP   5. WP->parse_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp.php:745
+[16-Dec-2020 12:05:08 UTC] PHP   6. do_action_ref_array() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp.php:388
+[16-Dec-2020 12:05:08 UTC] PHP   7. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:544
+[16-Dec-2020 12:05:08 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:05:08 UTC] PHP   9. rest_api_loaded() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:08 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:339
+[16-Dec-2020 12:05:08 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:376
+[16-Dec-2020 12:05:08 UTC] PHP  12. WP_REST_Posts_Controller->get_item() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:1050
+[16-Dec-2020 12:05:08 UTC] PHP  13. WP_REST_Posts_Controller->prepare_item_for_response() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:505
+[16-Dec-2020 12:05:08 UTC] PHP  14. apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:1683
+[16-Dec-2020 12:05:08 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:206
+[16-Dec-2020 12:05:08 UTC] PHP  16. do_blocks() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:08 UTC] PHP  17. render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:758
+[16-Dec-2020 12:05:08 UTC] PHP  18. WP_Block->render() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:720
+[16-Dec-2020 12:05:08 UTC] PHP  19. acf_render_block_callback() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-block.php:217
+[16-Dec-2020 12:05:08 UTC] PHP  20. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:307
+[16-Dec-2020 12:05:08 UTC] PHP  21. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:05:08 UTC] PHP  22. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:05:08 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:05:08 UTC] PHP Stack trace:
+[16-Dec-2020 12:05:08 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:0
+[16-Dec-2020 12:05:08 UTC] PHP   2. do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:176
+[16-Dec-2020 12:05:08 UTC] PHP   3. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:478
+[16-Dec-2020 12:05:08 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:05:08 UTC] PHP   5. acf_ajax_fetch_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:08 UTC] PHP   6. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:612
+[16-Dec-2020 12:05:08 UTC] PHP   7. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:05:08 UTC] PHP   8. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:05:12 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:05:12 UTC] PHP Stack trace:
+[16-Dec-2020 12:05:12 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:0
+[16-Dec-2020 12:05:12 UTC] PHP   2. do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:176
+[16-Dec-2020 12:05:12 UTC] PHP   3. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:478
+[16-Dec-2020 12:05:12 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:05:12 UTC] PHP   5. acf_ajax_fetch_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:12 UTC] PHP   6. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:612
+[16-Dec-2020 12:05:12 UTC] PHP   7. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:05:12 UTC] PHP   8. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:05:13 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:05:13 UTC] PHP Stack trace:
+[16-Dec-2020 12:05:13 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:0
+[16-Dec-2020 12:05:13 UTC] PHP   2. do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:176
+[16-Dec-2020 12:05:13 UTC] PHP   3. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:478
+[16-Dec-2020 12:05:13 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:05:13 UTC] PHP   5. acf_ajax_fetch_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:13 UTC] PHP   6. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:612
+[16-Dec-2020 12:05:13 UTC] PHP   7. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:05:13 UTC] PHP   8. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:05:14 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:05:14 UTC] PHP Stack trace:
+[16-Dec-2020 12:05:14 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:0
+[16-Dec-2020 12:05:14 UTC] PHP   2. do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:176
+[16-Dec-2020 12:05:14 UTC] PHP   3. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:478
+[16-Dec-2020 12:05:14 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:05:14 UTC] PHP   5. acf_ajax_fetch_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:14 UTC] PHP   6. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:612
+[16-Dec-2020 12:05:14 UTC] PHP   7. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:05:14 UTC] PHP   8. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:05:16 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:05:16 UTC] PHP Stack trace:
+[16-Dec-2020 12:05:16 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:0
+[16-Dec-2020 12:05:16 UTC] PHP   2. do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:176
+[16-Dec-2020 12:05:16 UTC] PHP   3. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:478
+[16-Dec-2020 12:05:16 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:05:16 UTC] PHP   5. acf_ajax_fetch_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:16 UTC] PHP   6. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:612
+[16-Dec-2020 12:05:16 UTC] PHP   7. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:05:16 UTC] PHP   8. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:05:32 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:05:32 UTC] PHP Stack trace:
+[16-Dec-2020 12:05:32 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\post.php:0
+[16-Dec-2020 12:05:32 UTC] PHP   2. require() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\post.php:187
+[16-Dec-2020 12:05:32 UTC] PHP   3. array_reduce() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\edit-form-blocks.php:77
+[16-Dec-2020 12:05:32 UTC] PHP   4. rest_preload_api_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\edit-form-blocks.php:77
+[16-Dec-2020 12:05:32 UTC] PHP   5. rest_do_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:1984
+[16-Dec-2020 12:05:32 UTC] PHP   6. WP_REST_Server->dispatch() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:464
+[16-Dec-2020 12:05:32 UTC] PHP   7. WP_REST_Posts_Controller->get_item() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:1050
+[16-Dec-2020 12:05:32 UTC] PHP   8. WP_REST_Posts_Controller->prepare_item_for_response() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:505
+[16-Dec-2020 12:05:32 UTC] PHP   9. apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:1683
+[16-Dec-2020 12:05:32 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:206
+[16-Dec-2020 12:05:32 UTC] PHP  11. do_blocks() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:32 UTC] PHP  12. render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:758
+[16-Dec-2020 12:05:32 UTC] PHP  13. WP_Block->render() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:720
+[16-Dec-2020 12:05:32 UTC] PHP  14. acf_render_block_callback() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-block.php:217
+[16-Dec-2020 12:05:32 UTC] PHP  15. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:307
+[16-Dec-2020 12:05:32 UTC] PHP  16. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:05:32 UTC] PHP  17. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:05:32 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:05:32 UTC] PHP Stack trace:
+[16-Dec-2020 12:05:32 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\post.php:0
+[16-Dec-2020 12:05:32 UTC] PHP   2. require() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\post.php:187
+[16-Dec-2020 12:05:32 UTC] PHP   3. array_reduce() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\edit-form-blocks.php:77
+[16-Dec-2020 12:05:32 UTC] PHP   4. rest_preload_api_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\edit-form-blocks.php:77
+[16-Dec-2020 12:05:32 UTC] PHP   5. rest_do_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:1984
+[16-Dec-2020 12:05:32 UTC] PHP   6. WP_REST_Server->dispatch() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:464
+[16-Dec-2020 12:05:32 UTC] PHP   7. WP_REST_Autosaves_Controller->get_items() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:1050
+[16-Dec-2020 12:05:32 UTC] PHP   8. WP_REST_Autosaves_Controller->prepare_item_for_response() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php:300
+[16-Dec-2020 12:05:32 UTC] PHP   9. WP_REST_Revisions_Controller->prepare_item_for_response() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php:406
+[16-Dec-2020 12:05:32 UTC] PHP  10. apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-revisions-controller.php:603
+[16-Dec-2020 12:05:32 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:206
+[16-Dec-2020 12:05:32 UTC] PHP  12. do_blocks() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:32 UTC] PHP  13. render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:758
+[16-Dec-2020 12:05:32 UTC] PHP  14. WP_Block->render() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:720
+[16-Dec-2020 12:05:32 UTC] PHP  15. acf_render_block_callback() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-block.php:217
+[16-Dec-2020 12:05:32 UTC] PHP  16. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:307
+[16-Dec-2020 12:05:32 UTC] PHP  17. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:05:32 UTC] PHP  18. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:05:33 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:05:33 UTC] PHP Stack trace:
+[16-Dec-2020 12:05:33 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\index.php:0
+[16-Dec-2020 12:05:33 UTC] PHP   2. require() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\index.php:17
+[16-Dec-2020 12:05:33 UTC] PHP   3. wp() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-blog-header.php:16
+[16-Dec-2020 12:05:33 UTC] PHP   4. WP->main() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\functions.php:1285
+[16-Dec-2020 12:05:33 UTC] PHP   5. WP->parse_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp.php:745
+[16-Dec-2020 12:05:33 UTC] PHP   6. do_action_ref_array() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp.php:388
+[16-Dec-2020 12:05:33 UTC] PHP   7. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:544
+[16-Dec-2020 12:05:33 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:05:33 UTC] PHP   9. rest_api_loaded() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:33 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:339
+[16-Dec-2020 12:05:33 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:376
+[16-Dec-2020 12:05:33 UTC] PHP  12. WP_REST_Posts_Controller->get_item() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:1050
+[16-Dec-2020 12:05:33 UTC] PHP  13. WP_REST_Posts_Controller->prepare_item_for_response() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:505
+[16-Dec-2020 12:05:33 UTC] PHP  14. apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:1683
+[16-Dec-2020 12:05:33 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:206
+[16-Dec-2020 12:05:33 UTC] PHP  16. do_blocks() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:33 UTC] PHP  17. render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:758
+[16-Dec-2020 12:05:33 UTC] PHP  18. WP_Block->render() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:720
+[16-Dec-2020 12:05:33 UTC] PHP  19. acf_render_block_callback() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-block.php:217
+[16-Dec-2020 12:05:33 UTC] PHP  20. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:307
+[16-Dec-2020 12:05:33 UTC] PHP  21. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:05:33 UTC] PHP  22. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:05:33 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:05:33 UTC] PHP Stack trace:
+[16-Dec-2020 12:05:33 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:0
+[16-Dec-2020 12:05:33 UTC] PHP   2. do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:176
+[16-Dec-2020 12:05:33 UTC] PHP   3. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:478
+[16-Dec-2020 12:05:33 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:05:33 UTC] PHP   5. acf_ajax_fetch_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:33 UTC] PHP   6. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:612
+[16-Dec-2020 12:05:33 UTC] PHP   7. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:05:33 UTC] PHP   8. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:05:36 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:05:36 UTC] PHP Stack trace:
+[16-Dec-2020 12:05:36 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:0
+[16-Dec-2020 12:05:36 UTC] PHP   2. do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:176
+[16-Dec-2020 12:05:36 UTC] PHP   3. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:478
+[16-Dec-2020 12:05:36 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:05:36 UTC] PHP   5. acf_ajax_fetch_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:36 UTC] PHP   6. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:612
+[16-Dec-2020 12:05:36 UTC] PHP   7. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:05:36 UTC] PHP   8. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:05:38 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:05:38 UTC] PHP Stack trace:
+[16-Dec-2020 12:05:38 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:0
+[16-Dec-2020 12:05:38 UTC] PHP   2. do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:176
+[16-Dec-2020 12:05:38 UTC] PHP   3. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:478
+[16-Dec-2020 12:05:38 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:05:38 UTC] PHP   5. acf_ajax_fetch_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:38 UTC] PHP   6. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:612
+[16-Dec-2020 12:05:38 UTC] PHP   7. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:05:38 UTC] PHP   8. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:05:39 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:05:39 UTC] PHP Stack trace:
+[16-Dec-2020 12:05:39 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:0
+[16-Dec-2020 12:05:39 UTC] PHP   2. do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:176
+[16-Dec-2020 12:05:39 UTC] PHP   3. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:478
+[16-Dec-2020 12:05:39 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:05:39 UTC] PHP   5. acf_ajax_fetch_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:39 UTC] PHP   6. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:612
+[16-Dec-2020 12:05:39 UTC] PHP   7. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:05:39 UTC] PHP   8. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:05:40 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:05:40 UTC] PHP Stack trace:
+[16-Dec-2020 12:05:40 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:0
+[16-Dec-2020 12:05:40 UTC] PHP   2. do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:176
+[16-Dec-2020 12:05:40 UTC] PHP   3. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:478
+[16-Dec-2020 12:05:40 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:05:40 UTC] PHP   5. acf_ajax_fetch_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:40 UTC] PHP   6. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:612
+[16-Dec-2020 12:05:40 UTC] PHP   7. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:05:40 UTC] PHP   8. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:05:46 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:05:46 UTC] PHP Stack trace:
+[16-Dec-2020 12:05:46 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:0
+[16-Dec-2020 12:05:46 UTC] PHP   2. do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:176
+[16-Dec-2020 12:05:46 UTC] PHP   3. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:478
+[16-Dec-2020 12:05:46 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:05:46 UTC] PHP   5. acf_ajax_fetch_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:46 UTC] PHP   6. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:612
+[16-Dec-2020 12:05:46 UTC] PHP   7. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:05:46 UTC] PHP   8. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:05:49 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:05:49 UTC] PHP Stack trace:
+[16-Dec-2020 12:05:49 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\post.php:0
+[16-Dec-2020 12:05:49 UTC] PHP   2. require() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\post.php:187
+[16-Dec-2020 12:05:49 UTC] PHP   3. array_reduce() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\edit-form-blocks.php:77
+[16-Dec-2020 12:05:49 UTC] PHP   4. rest_preload_api_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\edit-form-blocks.php:77
+[16-Dec-2020 12:05:49 UTC] PHP   5. rest_do_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:1984
+[16-Dec-2020 12:05:49 UTC] PHP   6. WP_REST_Server->dispatch() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:464
+[16-Dec-2020 12:05:49 UTC] PHP   7. WP_REST_Posts_Controller->get_item() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:1050
+[16-Dec-2020 12:05:49 UTC] PHP   8. WP_REST_Posts_Controller->prepare_item_for_response() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:505
+[16-Dec-2020 12:05:49 UTC] PHP   9. apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:1683
+[16-Dec-2020 12:05:49 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:206
+[16-Dec-2020 12:05:49 UTC] PHP  11. do_blocks() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:49 UTC] PHP  12. render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:758
+[16-Dec-2020 12:05:49 UTC] PHP  13. WP_Block->render() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:720
+[16-Dec-2020 12:05:49 UTC] PHP  14. acf_render_block_callback() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-block.php:217
+[16-Dec-2020 12:05:49 UTC] PHP  15. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:307
+[16-Dec-2020 12:05:49 UTC] PHP  16. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:05:49 UTC] PHP  17. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:05:49 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:05:49 UTC] PHP Stack trace:
+[16-Dec-2020 12:05:49 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\post.php:0
+[16-Dec-2020 12:05:49 UTC] PHP   2. require() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\post.php:187
+[16-Dec-2020 12:05:49 UTC] PHP   3. array_reduce() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\edit-form-blocks.php:77
+[16-Dec-2020 12:05:49 UTC] PHP   4. rest_preload_api_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\edit-form-blocks.php:77
+[16-Dec-2020 12:05:49 UTC] PHP   5. rest_do_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:1984
+[16-Dec-2020 12:05:49 UTC] PHP   6. WP_REST_Server->dispatch() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:464
+[16-Dec-2020 12:05:49 UTC] PHP   7. WP_REST_Autosaves_Controller->get_items() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:1050
+[16-Dec-2020 12:05:49 UTC] PHP   8. WP_REST_Autosaves_Controller->prepare_item_for_response() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php:300
+[16-Dec-2020 12:05:49 UTC] PHP   9. WP_REST_Revisions_Controller->prepare_item_for_response() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php:406
+[16-Dec-2020 12:05:49 UTC] PHP  10. apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-revisions-controller.php:603
+[16-Dec-2020 12:05:49 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:206
+[16-Dec-2020 12:05:49 UTC] PHP  12. do_blocks() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:49 UTC] PHP  13. render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:758
+[16-Dec-2020 12:05:49 UTC] PHP  14. WP_Block->render() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:720
+[16-Dec-2020 12:05:49 UTC] PHP  15. acf_render_block_callback() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-block.php:217
+[16-Dec-2020 12:05:49 UTC] PHP  16. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:307
+[16-Dec-2020 12:05:49 UTC] PHP  17. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:05:49 UTC] PHP  18. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:05:50 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:05:50 UTC] PHP Stack trace:
+[16-Dec-2020 12:05:50 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\index.php:0
+[16-Dec-2020 12:05:50 UTC] PHP   2. require() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\index.php:17
+[16-Dec-2020 12:05:50 UTC] PHP   3. wp() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-blog-header.php:16
+[16-Dec-2020 12:05:50 UTC] PHP   4. WP->main() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\functions.php:1285
+[16-Dec-2020 12:05:50 UTC] PHP   5. WP->parse_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp.php:745
+[16-Dec-2020 12:05:50 UTC] PHP   6. do_action_ref_array() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp.php:388
+[16-Dec-2020 12:05:50 UTC] PHP   7. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:544
+[16-Dec-2020 12:05:50 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:05:50 UTC] PHP   9. rest_api_loaded() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:50 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:339
+[16-Dec-2020 12:05:50 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:376
+[16-Dec-2020 12:05:50 UTC] PHP  12. WP_REST_Posts_Controller->get_item() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:1050
+[16-Dec-2020 12:05:50 UTC] PHP  13. WP_REST_Posts_Controller->prepare_item_for_response() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:505
+[16-Dec-2020 12:05:50 UTC] PHP  14. apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:1683
+[16-Dec-2020 12:05:50 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:206
+[16-Dec-2020 12:05:50 UTC] PHP  16. do_blocks() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:50 UTC] PHP  17. render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:758
+[16-Dec-2020 12:05:50 UTC] PHP  18. WP_Block->render() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:720
+[16-Dec-2020 12:05:50 UTC] PHP  19. acf_render_block_callback() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-block.php:217
+[16-Dec-2020 12:05:50 UTC] PHP  20. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:307
+[16-Dec-2020 12:05:50 UTC] PHP  21. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:05:50 UTC] PHP  22. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:05:50 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:05:50 UTC] PHP Stack trace:
+[16-Dec-2020 12:05:50 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:0
+[16-Dec-2020 12:05:50 UTC] PHP   2. do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:176
+[16-Dec-2020 12:05:50 UTC] PHP   3. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:478
+[16-Dec-2020 12:05:50 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:05:50 UTC] PHP   5. acf_ajax_fetch_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:50 UTC] PHP   6. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:612
+[16-Dec-2020 12:05:50 UTC] PHP   7. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:05:50 UTC] PHP   8. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:05:54 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:05:54 UTC] PHP Stack trace:
+[16-Dec-2020 12:05:54 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:0
+[16-Dec-2020 12:05:54 UTC] PHP   2. do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:176
+[16-Dec-2020 12:05:54 UTC] PHP   3. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:478
+[16-Dec-2020 12:05:54 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:05:54 UTC] PHP   5. acf_ajax_fetch_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:54 UTC] PHP   6. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:612
+[16-Dec-2020 12:05:54 UTC] PHP   7. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:05:54 UTC] PHP   8. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:05:55 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:05:55 UTC] PHP Stack trace:
+[16-Dec-2020 12:05:55 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:0
+[16-Dec-2020 12:05:55 UTC] PHP   2. do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:176
+[16-Dec-2020 12:05:55 UTC] PHP   3. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:478
+[16-Dec-2020 12:05:55 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:05:55 UTC] PHP   5. acf_ajax_fetch_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:05:55 UTC] PHP   6. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:612
+[16-Dec-2020 12:05:55 UTC] PHP   7. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:05:55 UTC] PHP   8. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:06:06 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:06:06 UTC] PHP Stack trace:
+[16-Dec-2020 12:06:06 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:0
+[16-Dec-2020 12:06:06 UTC] PHP   2. do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:176
+[16-Dec-2020 12:06:06 UTC] PHP   3. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:478
+[16-Dec-2020 12:06:06 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:06:06 UTC] PHP   5. acf_ajax_fetch_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:06:06 UTC] PHP   6. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:612
+[16-Dec-2020 12:06:06 UTC] PHP   7. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:06:06 UTC] PHP   8. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:06:09 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:06:09 UTC] PHP Stack trace:
+[16-Dec-2020 12:06:09 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\index.php:0
+[16-Dec-2020 12:06:09 UTC] PHP   2. require() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\index.php:17
+[16-Dec-2020 12:06:09 UTC] PHP   3. wp() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-blog-header.php:16
+[16-Dec-2020 12:06:09 UTC] PHP   4. WP->main() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\functions.php:1285
+[16-Dec-2020 12:06:09 UTC] PHP   5. WP->parse_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp.php:745
+[16-Dec-2020 12:06:09 UTC] PHP   6. do_action_ref_array() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp.php:388
+[16-Dec-2020 12:06:09 UTC] PHP   7. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:544
+[16-Dec-2020 12:06:09 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:06:09 UTC] PHP   9. rest_api_loaded() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:06:09 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:339
+[16-Dec-2020 12:06:09 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:376
+[16-Dec-2020 12:06:09 UTC] PHP  12. WP_REST_Posts_Controller->update_item() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:1050
+[16-Dec-2020 12:06:09 UTC] PHP  13. WP_REST_Posts_Controller->prepare_item_for_response() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:831
+[16-Dec-2020 12:06:09 UTC] PHP  14. apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:1683
+[16-Dec-2020 12:06:09 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:206
+[16-Dec-2020 12:06:09 UTC] PHP  16. do_blocks() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:06:09 UTC] PHP  17. render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:758
+[16-Dec-2020 12:06:09 UTC] PHP  18. WP_Block->render() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:720
+[16-Dec-2020 12:06:09 UTC] PHP  19. acf_render_block_callback() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-block.php:217
+[16-Dec-2020 12:06:09 UTC] PHP  20. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:307
+[16-Dec-2020 12:06:09 UTC] PHP  21. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:06:09 UTC] PHP  22. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:06:10 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:06:10 UTC] PHP Stack trace:
+[16-Dec-2020 12:06:10 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\post.php:0
+[16-Dec-2020 12:06:10 UTC] PHP   2. require() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\post.php:187
+[16-Dec-2020 12:06:10 UTC] PHP   3. array_reduce() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\edit-form-blocks.php:77
+[16-Dec-2020 12:06:10 UTC] PHP   4. rest_preload_api_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\edit-form-blocks.php:77
+[16-Dec-2020 12:06:10 UTC] PHP   5. rest_do_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:1984
+[16-Dec-2020 12:06:10 UTC] PHP   6. WP_REST_Server->dispatch() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:464
+[16-Dec-2020 12:06:10 UTC] PHP   7. WP_REST_Posts_Controller->get_item() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:1050
+[16-Dec-2020 12:06:10 UTC] PHP   8. WP_REST_Posts_Controller->prepare_item_for_response() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:505
+[16-Dec-2020 12:06:10 UTC] PHP   9. apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:1683
+[16-Dec-2020 12:06:10 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:206
+[16-Dec-2020 12:06:10 UTC] PHP  11. do_blocks() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:06:10 UTC] PHP  12. render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:758
+[16-Dec-2020 12:06:10 UTC] PHP  13. WP_Block->render() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:720
+[16-Dec-2020 12:06:10 UTC] PHP  14. acf_render_block_callback() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-block.php:217
+[16-Dec-2020 12:06:10 UTC] PHP  15. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:307
+[16-Dec-2020 12:06:10 UTC] PHP  16. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:06:10 UTC] PHP  17. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:06:10 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:06:10 UTC] PHP Stack trace:
+[16-Dec-2020 12:06:10 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\post.php:0
+[16-Dec-2020 12:06:10 UTC] PHP   2. require() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\post.php:187
+[16-Dec-2020 12:06:10 UTC] PHP   3. array_reduce() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\edit-form-blocks.php:77
+[16-Dec-2020 12:06:10 UTC] PHP   4. rest_preload_api_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\edit-form-blocks.php:77
+[16-Dec-2020 12:06:10 UTC] PHP   5. rest_do_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:1984
+[16-Dec-2020 12:06:10 UTC] PHP   6. WP_REST_Server->dispatch() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:464
+[16-Dec-2020 12:06:10 UTC] PHP   7. WP_REST_Autosaves_Controller->get_items() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:1050
+[16-Dec-2020 12:06:10 UTC] PHP   8. WP_REST_Autosaves_Controller->prepare_item_for_response() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php:300
+[16-Dec-2020 12:06:10 UTC] PHP   9. WP_REST_Revisions_Controller->prepare_item_for_response() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php:406
+[16-Dec-2020 12:06:10 UTC] PHP  10. apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-revisions-controller.php:603
+[16-Dec-2020 12:06:10 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:206
+[16-Dec-2020 12:06:10 UTC] PHP  12. do_blocks() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:06:10 UTC] PHP  13. render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:758
+[16-Dec-2020 12:06:10 UTC] PHP  14. WP_Block->render() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:720
+[16-Dec-2020 12:06:10 UTC] PHP  15. acf_render_block_callback() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-block.php:217
+[16-Dec-2020 12:06:10 UTC] PHP  16. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:307
+[16-Dec-2020 12:06:10 UTC] PHP  17. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:06:10 UTC] PHP  18. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:06:11 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:06:11 UTC] PHP Stack trace:
+[16-Dec-2020 12:06:11 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\index.php:0
+[16-Dec-2020 12:06:11 UTC] PHP   2. require() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\index.php:17
+[16-Dec-2020 12:06:11 UTC] PHP   3. wp() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-blog-header.php:16
+[16-Dec-2020 12:06:11 UTC] PHP   4. WP->main() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\functions.php:1285
+[16-Dec-2020 12:06:11 UTC] PHP   5. WP->parse_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp.php:745
+[16-Dec-2020 12:06:11 UTC] PHP   6. do_action_ref_array() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp.php:388
+[16-Dec-2020 12:06:11 UTC] PHP   7. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:544
+[16-Dec-2020 12:06:11 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:06:11 UTC] PHP   9. rest_api_loaded() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:06:11 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:339
+[16-Dec-2020 12:06:11 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:376
+[16-Dec-2020 12:06:11 UTC] PHP  12. WP_REST_Posts_Controller->update_item() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:1050
+[16-Dec-2020 12:06:11 UTC] PHP  13. WP_REST_Posts_Controller->prepare_item_for_response() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:831
+[16-Dec-2020 12:06:11 UTC] PHP  14. apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:1683
+[16-Dec-2020 12:06:11 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:206
+[16-Dec-2020 12:06:11 UTC] PHP  16. do_blocks() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:06:11 UTC] PHP  17. render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:758
+[16-Dec-2020 12:06:11 UTC] PHP  18. WP_Block->render() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:720
+[16-Dec-2020 12:06:11 UTC] PHP  19. acf_render_block_callback() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-block.php:217
+[16-Dec-2020 12:06:11 UTC] PHP  20. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:307
+[16-Dec-2020 12:06:11 UTC] PHP  21. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:06:11 UTC] PHP  22. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:06:11 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:06:11 UTC] PHP Stack trace:
+[16-Dec-2020 12:06:11 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\post.php:0
+[16-Dec-2020 12:06:11 UTC] PHP   2. require() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\post.php:187
+[16-Dec-2020 12:06:11 UTC] PHP   3. array_reduce() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\edit-form-blocks.php:77
+[16-Dec-2020 12:06:11 UTC] PHP   4. rest_preload_api_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\edit-form-blocks.php:77
+[16-Dec-2020 12:06:11 UTC] PHP   5. rest_do_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:1984
+[16-Dec-2020 12:06:11 UTC] PHP   6. WP_REST_Server->dispatch() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:464
+[16-Dec-2020 12:06:11 UTC] PHP   7. WP_REST_Posts_Controller->get_item() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:1050
+[16-Dec-2020 12:06:11 UTC] PHP   8. WP_REST_Posts_Controller->prepare_item_for_response() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:505
+[16-Dec-2020 12:06:11 UTC] PHP   9. apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:1683
+[16-Dec-2020 12:06:11 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:206
+[16-Dec-2020 12:06:11 UTC] PHP  11. do_blocks() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:06:11 UTC] PHP  12. render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:758
+[16-Dec-2020 12:06:11 UTC] PHP  13. WP_Block->render() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:720
+[16-Dec-2020 12:06:11 UTC] PHP  14. acf_render_block_callback() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-block.php:217
+[16-Dec-2020 12:06:11 UTC] PHP  15. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:307
+[16-Dec-2020 12:06:11 UTC] PHP  16. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:06:11 UTC] PHP  17. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:07:06 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:07:06 UTC] PHP Stack trace:
+[16-Dec-2020 12:07:06 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\post.php:0
+[16-Dec-2020 12:07:06 UTC] PHP   2. require() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\post.php:187
+[16-Dec-2020 12:07:06 UTC] PHP   3. array_reduce() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\edit-form-blocks.php:77
+[16-Dec-2020 12:07:06 UTC] PHP   4. rest_preload_api_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\edit-form-blocks.php:77
+[16-Dec-2020 12:07:06 UTC] PHP   5. rest_do_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:1984
+[16-Dec-2020 12:07:06 UTC] PHP   6. WP_REST_Server->dispatch() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:464
+[16-Dec-2020 12:07:06 UTC] PHP   7. WP_REST_Posts_Controller->get_item() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:1050
+[16-Dec-2020 12:07:06 UTC] PHP   8. WP_REST_Posts_Controller->prepare_item_for_response() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:505
+[16-Dec-2020 12:07:06 UTC] PHP   9. apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:1683
+[16-Dec-2020 12:07:06 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:206
+[16-Dec-2020 12:07:06 UTC] PHP  11. do_blocks() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:07:06 UTC] PHP  12. render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:758
+[16-Dec-2020 12:07:06 UTC] PHP  13. WP_Block->render() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:720
+[16-Dec-2020 12:07:06 UTC] PHP  14. acf_render_block_callback() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-block.php:217
+[16-Dec-2020 12:07:06 UTC] PHP  15. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:307
+[16-Dec-2020 12:07:06 UTC] PHP  16. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:07:06 UTC] PHP  17. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:07:08 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:07:08 UTC] PHP Stack trace:
+[16-Dec-2020 12:07:08 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\index.php:0
+[16-Dec-2020 12:07:08 UTC] PHP   2. require() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\index.php:17
+[16-Dec-2020 12:07:08 UTC] PHP   3. wp() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-blog-header.php:16
+[16-Dec-2020 12:07:08 UTC] PHP   4. WP->main() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\functions.php:1285
+[16-Dec-2020 12:07:08 UTC] PHP   5. WP->parse_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp.php:745
+[16-Dec-2020 12:07:08 UTC] PHP   6. do_action_ref_array() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp.php:388
+[16-Dec-2020 12:07:08 UTC] PHP   7. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:544
+[16-Dec-2020 12:07:08 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:07:08 UTC] PHP   9. rest_api_loaded() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:07:08 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:339
+[16-Dec-2020 12:07:08 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:376
+[16-Dec-2020 12:07:08 UTC] PHP  12. WP_REST_Posts_Controller->get_item() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:1050
+[16-Dec-2020 12:07:08 UTC] PHP  13. WP_REST_Posts_Controller->prepare_item_for_response() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:505
+[16-Dec-2020 12:07:08 UTC] PHP  14. apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:1683
+[16-Dec-2020 12:07:08 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:206
+[16-Dec-2020 12:07:08 UTC] PHP  16. do_blocks() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:07:08 UTC] PHP  17. render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:758
+[16-Dec-2020 12:07:08 UTC] PHP  18. WP_Block->render() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:720
+[16-Dec-2020 12:07:08 UTC] PHP  19. acf_render_block_callback() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-block.php:217
+[16-Dec-2020 12:07:08 UTC] PHP  20. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:307
+[16-Dec-2020 12:07:08 UTC] PHP  21. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:07:08 UTC] PHP  22. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:07:08 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 52
+[16-Dec-2020 12:07:08 UTC] PHP Stack trace:
+[16-Dec-2020 12:07:08 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:0
+[16-Dec-2020 12:07:08 UTC] PHP   2. do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:176
+[16-Dec-2020 12:07:08 UTC] PHP   3. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:478
+[16-Dec-2020 12:07:08 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:07:08 UTC] PHP   5. acf_ajax_fetch_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:07:08 UTC] PHP   6. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:612
+[16-Dec-2020 12:07:08 UTC] PHP   7. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:07:08 UTC] PHP   8. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:09:37 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 23
+[16-Dec-2020 12:09:37 UTC] PHP Stack trace:
+[16-Dec-2020 12:09:37 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\post.php:0
+[16-Dec-2020 12:09:37 UTC] PHP   2. require() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\post.php:187
+[16-Dec-2020 12:09:37 UTC] PHP   3. array_reduce() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\edit-form-blocks.php:77
+[16-Dec-2020 12:09:37 UTC] PHP   4. rest_preload_api_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\edit-form-blocks.php:77
+[16-Dec-2020 12:09:37 UTC] PHP   5. rest_do_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:1984
+[16-Dec-2020 12:09:37 UTC] PHP   6. WP_REST_Server->dispatch() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:464
+[16-Dec-2020 12:09:37 UTC] PHP   7. WP_REST_Posts_Controller->get_item() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:1050
+[16-Dec-2020 12:09:37 UTC] PHP   8. WP_REST_Posts_Controller->prepare_item_for_response() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:505
+[16-Dec-2020 12:09:37 UTC] PHP   9. apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:1683
+[16-Dec-2020 12:09:37 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:206
+[16-Dec-2020 12:09:37 UTC] PHP  11. do_blocks() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:09:37 UTC] PHP  12. render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:758
+[16-Dec-2020 12:09:37 UTC] PHP  13. WP_Block->render() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:720
+[16-Dec-2020 12:09:37 UTC] PHP  14. acf_render_block_callback() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-block.php:217
+[16-Dec-2020 12:09:37 UTC] PHP  15. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:307
+[16-Dec-2020 12:09:37 UTC] PHP  16. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:09:37 UTC] PHP  17. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:09:38 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 23
+[16-Dec-2020 12:09:38 UTC] PHP Stack trace:
+[16-Dec-2020 12:09:38 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\index.php:0
+[16-Dec-2020 12:09:38 UTC] PHP   2. require() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\index.php:17
+[16-Dec-2020 12:09:38 UTC] PHP   3. wp() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-blog-header.php:16
+[16-Dec-2020 12:09:38 UTC] PHP   4. WP->main() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\functions.php:1285
+[16-Dec-2020 12:09:38 UTC] PHP   5. WP->parse_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp.php:745
+[16-Dec-2020 12:09:38 UTC] PHP   6. do_action_ref_array() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp.php:388
+[16-Dec-2020 12:09:38 UTC] PHP   7. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:544
+[16-Dec-2020 12:09:38 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:09:38 UTC] PHP   9. rest_api_loaded() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:09:38 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api.php:339
+[16-Dec-2020 12:09:38 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:376
+[16-Dec-2020 12:09:38 UTC] PHP  12. WP_REST_Posts_Controller->get_item() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\class-wp-rest-server.php:1050
+[16-Dec-2020 12:09:38 UTC] PHP  13. WP_REST_Posts_Controller->prepare_item_for_response() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:505
+[16-Dec-2020 12:09:38 UTC] PHP  14. apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:1683
+[16-Dec-2020 12:09:38 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:206
+[16-Dec-2020 12:09:38 UTC] PHP  16. do_blocks() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:09:38 UTC] PHP  17. render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:758
+[16-Dec-2020 12:09:38 UTC] PHP  18. WP_Block->render() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\blocks.php:720
+[16-Dec-2020 12:09:38 UTC] PHP  19. acf_render_block_callback() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-block.php:217
+[16-Dec-2020 12:09:38 UTC] PHP  20. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:307
+[16-Dec-2020 12:09:38 UTC] PHP  21. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:09:38 UTC] PHP  22. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[16-Dec-2020 12:09:39 UTC] PHP Notice:  Undefined variable: class_name in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\drotved-text\drotved-text.php on line 23
+[16-Dec-2020 12:09:39 UTC] PHP Stack trace:
+[16-Dec-2020 12:09:39 UTC] PHP   1. {main}() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:0
+[16-Dec-2020 12:09:39 UTC] PHP   2. do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-admin\admin-ajax.php:176
+[16-Dec-2020 12:09:39 UTC] PHP   3. WP_Hook->do_action() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\plugin.php:478
+[16-Dec-2020 12:09:39 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:311
+[16-Dec-2020 12:09:39 UTC] PHP   5. acf_ajax_fetch_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-includes\class-wp-hook.php:287
+[16-Dec-2020 12:09:39 UTC] PHP   6. acf_rendered_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:612
+[16-Dec-2020 12:09:39 UTC] PHP   7. acf_render_block() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:327
+[16-Dec-2020 12:09:39 UTC] PHP   8. include() C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php:390
+[17-Dec-2020 11:57:25 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\functions.php on line 78
+[17-Dec-2020 11:57:40 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\functions.php on line 78
+[17-Dec-2020 11:57:56 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\functions.php on line 78
+[17-Dec-2020 11:58:11 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\functions.php on line 78
+[17-Dec-2020 12:00:11 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\functions.php on line 78
+[17-Dec-2020 12:19:38 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\functions.php on line 85
+[17-Dec-2020 12:21:39 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\functions.php on line 85
+[17-Dec-2020 12:23:40 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\functions.php on line 85
+[17-Dec-2020 12:25:41 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_script' (T_STRING) in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\functions.php on line 88
+[17-Dec-2020 12:29:30 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\functions.php on line 87
+[17-Dec-2020 12:29:31 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\functions.php on line 87
+[17-Dec-2020 12:29:31 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\functions.php on line 87
+[17-Dec-2020 12:29:56 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\functions.php on line 88
+[17-Dec-2020 12:30:10 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\functions.php on line 90
+[17-Dec-2020 15:45:20 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in C:\Users\rdlau\Local Sites\snemnd-gutenberg\app\public\wp-content\themes\astra-child\template-parts\blocks\slider\slider.php on line 44

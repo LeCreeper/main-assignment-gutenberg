@@ -31,6 +31,7 @@ add_action( 'wp_enqueue_scripts', 'drotved_scripts');
         //
         if(function_exists('acf_register_block'))
         {
+            //recent posts
             acf_register_block(
                 
                 array(
@@ -43,10 +44,8 @@ add_action( 'wp_enqueue_scripts', 'drotved_scripts');
                     'keywords'              => array('drotved','recent','post'), 
                 )
             );
-        }
 
-        if(function_exists('acf_register_block')) {
-
+            //custom text block
             acf_register_block(
 
                 array(
@@ -67,7 +66,37 @@ add_action( 'wp_enqueue_scripts', 'drotved_scripts');
                     //'enqueue_style'         => get_template_directory_uri() . '/tempalte-parts/blocks/drotved-text/drotved-text.css',
                 )
             );
+
+            //slider
+            acf_register_block(
+
+                array(
+                    'name'              =>  'slider',
+                    'title'             =>  __('Slider'),
+                    'description'       =>  __('A custom slider block'),
+                    'render_template'   =>  'template-parts/blocks/slider/slider.php',
+                    'category'          =>  'drotved_blocks',
+                    'icon'              =>  'images-alt2',
+                    'keywords'          =>  array('drotved', 'text', 'button'),
+                    'supports'          =>  array(
+                        //'jsx' => true
+                    ),
+                    'enqueue_assets' 	=> function(){
+                        wp_enqueue_style( 'slick', 'http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css', array(), '1.8.1' );
+                        wp_enqueue_style( 'slick-theme', 'http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css', array(), '1.8.1' );
+                        wp_enqueue_script( 'slick', 'http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js', array('jquery'), '1.8.1', true );
+        
+                        wp_enqueue_style( 'block-slider', get_stylesheet_directory_uri() . '/template-parts/blocks/slider/slider.css', array(), '1.0.0' );
+                        wp_enqueue_script( 'block-slider',  get_stylesheet_directory_uri() . './template-parts/blocks/slider/slider.js', array(), '1.0.0', true );
+                      },
+
+
+
+                )
+            );
         }
+
+        
     }
  
     //This function assigns a category to the custom block,
