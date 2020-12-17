@@ -8,6 +8,12 @@ if ( !empty($block['anchor']) ) {
     $id = $block['anchor'];
 }
 
+//Code from first tutorial
+//$class_name = isset($block['className']) ? $class_name : ""; 
+
+//my version
+//$class_name = isset($block['className']) ? $block['className'] : ""; 
+
 //Adds custom classname
 $className = 'custom-text';
 if ( !empty($block['className']) ) {
@@ -17,8 +23,6 @@ if( !empty($block['align']) ) {
     $className .= ' align' . $block['align'];
 }
 
-//my version
-// $class_name = isset($block['className']) ? $block['class_name'] : ""; 
 
 /* 
     Fields from ACF
@@ -49,16 +53,25 @@ $button_text_color  =  get_typography_field('button_text_Settings', 'text_color'
 <head>
 </head>
 <body>
-    <div>
-        <h2>Hello There!</h2>
+    <div class="<?php echo esc_attr($className); ?>">
+        <h2 class="styling">Hello There!</h2>
         <h4 class="bob">hello the third</h4>
     </div>
     
 </body>
 <style> 
-    h2 {
+     
+
+
+    .ast-container h2, .interface-interface-skeleton__content h2 {
         font-size: <?php echo $header_font_size?>px !important;
-        color: <?php echo $header_text_color?> !important;
-        text-align: <?php echo $header_text_align ?> !important;
+    color: <?php echo $header_text_color?> !important;
+    text-align: <?php echo $header_text_align ?> !important;
     }
+
+    .test {
+        background-color: red !important;
+    }
+    
+    
 </style>

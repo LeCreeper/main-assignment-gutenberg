@@ -1,16 +1,21 @@
-h1 {
+.ast-container h1, .interface-interface-skeleton__content h1 {
   font-size: 2.5vw; }
-
-h2 {
+.ast-container h2, .interface-interface-skeleton__content h2 {
   font-size: 2vw; }
-
-h3 {
-  font-size: 1.5vw; }
-
-p {
+.ast-container h3, .interface-interface-skeleton__content h3 {
+  font-size: 1.7vw; }
+.ast-container h4, .interface-interface-skeleton__content h4 {
+  font-size: 1.3vw; }
+.ast-container p, .interface-interface-skeleton__content p {
   font-size: 1vw; }
 
 @media screen and (max-width: 1280px) {
+  h3 {
+    font-size: 2vw !important; }
+
+  h4 {
+    font-size: 1.7vw !important; }
+
   p {
     font-size: 1.5vw !important; } }
 @media screen and (max-width: 989px) {
@@ -18,13 +23,25 @@ p {
     font-size: 3.5vw !important; }
 
   h2 {
-    font-size: 2.5vw !important; } }
+    font-size: 2.5vw !important; }
+
+  h3 {
+    font-size: 2.3vw !important; }
+
+  h4 {
+    font-size: 1.7vw !important; } }
 @media screen and (max-width: 767px) {
   h1 {
     font-size: 4vw !important; }
 
   h2 {
     font-size: 3vw !important; }
+
+  h3 {
+    font-size: 2.6vw !important; }
+
+  h4 {
+    font-size: 2.1vw !important; }
 
   p {
     font-size: 2vw !important; } }
@@ -36,6 +53,12 @@ p {
     font-size: 4vw !important;
     line-height: 50px !important; }
 
+  h3 {
+    font-size: 3vw !important; }
+
+  h4 {
+    font-size: 2.5vw !important; }
+
   p {
     font-size: 2.7vw !important; } }
 @media screen and (max-width: 480px) {
@@ -44,6 +67,12 @@ p {
 
   h2 {
     font-size: 5vw !important; }
+
+  h3 {
+    font-size: 3.8vw !important; }
+
+  h4 {
+    font-size: 2.8vw !important; }
 
   p {
     font-size: 3.5vw !important; } }
@@ -96,5 +125,51 @@ p {
 
 .test {
   background-color: lightgray; }
+
+/* fix new block overlap issue */
+.block-editor-block-list__block {
+  margin-bottom: 70px !important; }
+
+.slider {
+  padding: 0 0 5px; }
+
+/* styling of entire slide */
+.slide-data {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 75% !important;
+  margin: auto !important; }
+
+/* header styling */
+.testimonial-header {
+  display: flex !important;
+  justify-content: center !important; }
+
+/* description styling */
+.testimonial-description {
+  display: flex !important;
+  justify-content: center !important;
+  font-style: italic;
+  margin-bottom: 33px; }
+
+/* Author Styling */
+.testimonial-author {
+  display: flex !important;
+  justify-content: center !important;
+  font-weight: 600; }
+
+.slick-dots {
+  margin-bottom: -25px !important;
+  margin-left: 0px !important;
+  padding-left: 0px !important; }
+  .slick-dots button:before {
+    font-size: 10px !important; }
+
+.slick-arrow:before {
+  color: black !important; }
+
+@media screen and (max-width: 480px) {
+  .slick-arrow {
+    display: none !important; } }
 
 /*# sourceMappingURL=editor.css.map */

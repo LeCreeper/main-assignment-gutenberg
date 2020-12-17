@@ -1,0 +1,83 @@
+
+/* fix new block overlap issue */
+.block-editor-block-list__block {
+    margin-bottom: 70px !important;
+}
+
+.slider {
+    padding: 0 0 5px;
+}
+
+/* styling of entire slide */
+.slide-data {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 75% !important;
+    margin: auto !important;
+}
+
+/* header styling */
+.testimonial-header {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+/* description styling */
+.testimonial-description {
+    display: flex !important;
+    justify-content: center !important;
+    font-style: italic;
+    margin-bottom: 33px;
+}
+
+/* Author Styling */
+.testimonial-author {
+    display: flex !important;
+    justify-content: center !important;
+    font-weight: 600;
+    
+}
+
+.slick-dots {
+    margin-bottom: -25px !important;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+
+    button:before {
+        font-size: 10px !important;
+    }
+}
+
+
+
+.slick-arrow:before {
+    color: black !important;
+}
+
+// // Fix selectable bug.
+// .slider {
+//     &.is-admin {
+//         &:before {
+//             display: block;
+//             content: "";
+//             top: 0;
+//             left: 0;
+//             right: 0;
+//             bottom: 40px;
+//             position: absolute;
+//             z-index: 1;
+//         }
+//     }
+// }
+
+//mixins
+@include screenMax(480px) {
+
+    .slick-arrow {
+        display: none !important;
+    }
+    
+    
+
+}
+    
